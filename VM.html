@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VM.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Machine Virtuelle</title>
+</head>
+<body>
+    <header style="background-color: #32c05c;">
+        <label id="menu" for="check">
+            <input type="checkbox" id="check"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <a href="contact.html">
+            <button id="open">Contactez-moi !</button>
+        </a>
+        <h1>Installation d'une Machine Virtuelle</h1>
+    </header>
+    <main>
+        <nav id="nav" style="visibility: hidden;">
+            <section>
+                <div class="accueil">
+                    <a class="retour" href="index.html">
+                        <img src="images/flèche_accueil.png" alt="logo flèche retour accueil">
+                        <h2>Accueil</h2>
+                    </a>
+                </div>
+                <div class="Nformation">
+                    <h2>Formation</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#32c05c', 'white')" onmouseout="changeColor('actif', 'white','#32c05c')">
+                        <a href="analyse.html">Analyse d'une entreprise</a>
+                        <a href="IA.html">Codage d'un Jeu de plateau + IA</a>
+                        <a href="HTML.html">Création d'un site Internet</a>
+                        <a href="BaseDonne.html">Création de base de données</a>
+                        <a href="station.html">Codage d'une station météorologique</a>
+                        <a id="actif" href="VM.html">Installation d'une Machine Virtuelle</a>
+                    </div>
+                </div>
+                <div id="P" class="Nprofessionnel">
+                    <h2>Professionnel</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#32c05c', 'white')" onmouseout="changeColor('actif', 'white','#32c05c')">
+                        <a href="index.html">Manutentionnaire Michelin</a>
+                        <a href="index.html">Manutentionnaire GVG</a>
+                        <a href="index.html">Manutentionnaire Sovex</a>
+                    </div>
+                </div>
+                <p class="nom"> DUBILE Bastien</p>
+            </section>
+        </nav>
+        <div class="corp">
+            <div class="premier">
+                <section>
+                    <h2>Étapes de réalisation</h2>
+                    <ul>
+                        <li>Comprendre les besoins du client</li>
+                        <li>Schématiser l'architecture logicielle</li>
+                        <li>Installer la VM</li>
+                        <li>Réaliser une notice d'utilisation</li>
+                        <li>Dossier de choix des solutions</li>
+                        <li>Préparer la soutenance orale</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questionnement et étapes</h2>
+                    <ul>
+                        <li>Identifier ses besoins</li>
+                        <li>Comparer les différentes solutions</li>
+                        <li>Configurer selon l'utilisation du client</li>
+                        <li>Rendre l'utilisation facile pour le client</li>
+                        <li>Expliquer nos décisions</li>
+                        <li>Faire une démo au client</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Compétences acquises</h2>
+                    <ul>
+                        <li>Compréhension</li>
+                        <li>S'adapter aux demandes</li>
+                        <li>VM Ware</li>
+                        <li>Machine Manjaro</li>
+                        <li>Argumenter</li>
+                        <li>Manipulation de VM</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="deuxieme">
+                <div class="capture">
+                    <img src="images/CaptureVM1.png" alt="Capture représentant nos choix de solution">
+                </div>
+                <div id="special" class="capture">
+                    <img src="images/CaptureVM2.png" alt="Capture représentant ce qu'il fallait faire pour ce projet">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+    
+</body>
+</html>

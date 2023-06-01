@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="HTML.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Site Internet</title>
+</head>
+<body>
+    <header style="background-color: #ff4c1e;">
+        <label id="menu" for="check">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <a href="contact.html">
+            <button id="open">Contactez-moi !</button>
+        </a>
+        <h1>Rapport d'analyse d'une entreprise</h1>
+    </header>
+    <main>
+        <nav id="nav" style="visibility: hidden;">
+            <section>
+                <div class="accueil">
+                    <a class="retour" href="index.html">
+                        <img src="images/flèche_accueil.png" alt="logo flèche retour accueil">
+                        <h2>Accueil</h2>
+                    </a>
+                </div>
+                <div class="Nformation">
+                    <h2>Formation</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#ff4c1e', 'white')" onmouseout="changeColor('actif', 'white','#ff4c1e')">
+                        <a  href="analyse.html">Analyse d'une entreprise</a>
+                        <a href="IA.html">Codage d'un Jeu de plateau + IA</a>
+                        <a id="actif" href="HTML.html">Création d'un site Internet</a>
+                        <a href="BaseDonne.html">Création de base de données</a>
+                        <a href="station.html">Codage d'une station météorologique</a>
+                        <a href="VM.html">Installation d'une Machine Virtuelle</a>
+                    </div>
+                </div>
+                <div id="P" class="Nprofessionnel">
+                    <h2>Professionnel</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#ff4c1e', 'white')" onmouseout="changeColor('actif', 'white','#ff4c1e')">
+                        <a href="index.html">Manutentionnaire Michelin</a>
+                        <a href="index.html">Manutentionnaire GVG</a>
+                        <a href="index.html">Manutentionnaire Sovex</a>
+                    </div>
+                </div>
+                <p class="nom"> DUBILE Bastien</p>
+            </section>
+        </nav>
+        <div class="corp">
+            <div class="premier">
+                <section>
+                    <h2>Étapes de réalisation</h2>
+                    <ul>
+                        <li>Création de personas</li>
+                        <li>Conception d'une maquette</li>
+                        <li>Réalisation de la maquette</li>
+                        <li>Coder en équipe</li>
+                        <li>Coder le site</li>
+                        <li>S'adapter à tous les utilisateurs</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questionnement et étapes</h2>
+                    <ul>
+                        <li>Cible du site ?</li>
+                        <li>Quel forme général ?</li>
+                        <li>Quel outils ?</li>
+                        <li>Comment regrouper le code ?</li>
+                        <li>Quel language ?</li>
+                        <li>Ordinateur ? Téléphone ? Tablette ?</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Compétences acquises</h2>
+                    <ul>
+                        <li>Créativité</li>
+                        <li>UI/UX design</li>
+                        <li>Familiarisation avec Canvas et Figma</li>
+                        <li>Gérer GitLab</li>
+                        <li>Gérer HTML et CSS</li>
+                        <li>Gérer le responsive</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="deuxieme">
+                <div class="capture">
+                    <img src="images/Capture_site_1.png" alt="Persona réaliser pendant le projet">
+                </div>
+                <div id="special" class="capture">
+                    <img src="images/Capture_site_2.png" alt="Rendu du site">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+    
+</body>
+</html>

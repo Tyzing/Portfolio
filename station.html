@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="station.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Station Météorologique</title>
+</head>
+<body>
+    <header>
+        <label id="menu" for="check">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <a href="contact.html">
+            <button id="open" class="btn">Contactez-moi !</button>
+        </a>
+        <h1>Codage d'une station Météorologique</h1>
+    </header>
+    <main>
+        <nav id="nav" style="visibility: hidden;">
+            <section>
+                <div class="accueil">
+                    <a class="retour" href="index.html">
+                        <img src="images/flèche_accueil.png" alt="logo flèche retour accueil">
+                        <h2>Accueil</h2>
+                    </a>
+                    
+                </div>
+                <div class="Nformation">
+                    <h2>Formation</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#0271a9', 'white')" onmouseout="changeColor('actif', 'white','#0271a9')">
+                        <a href="analyse.html">Analyse d'une entreprise</a>
+                        <a href="IA.html">Codage d'un Jeu de plateau + IA</a>
+                        <a href="HTML.html">Création d'un site Internet</a>
+                        <a href="BaseDonne.html">Création de base de données</a>
+                        <a id="actif" href="station.html">Codage d'une station météorologique</a>
+                        <a href="VM.html">Installation d'une Machine Virtuelle</a>
+                    </div>
+                </div>
+                <div id="P" class="Nprofessionnel">
+                    <h2>Professionnel</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#0271a9', 'white')" onmouseout="changeColor('actif', 'white','#0271a9')">
+                        <a href="index.html">Manutentionnaire Michelin</a>
+                        <a href="index.html">Manutentionnaire GVG</a>
+                        <a href="index.html">Manutentionnaire Sovex</a>
+                    </div>
+                </div>
+                <p class="nom"> DUBILE Bastien</p>
+            </section>
+        </nav>
+        <div class="corp">
+            <div class="premier">
+                <section>
+                    <h2>Étapes de réalisation</h2>
+                    <ul>
+                        <li>Partir d'un code préexistant</li>
+                        <li>Comprendre la situation</li>
+                        <li>Réflexion</li>
+                        <li>S'adapter au code</li>
+                        <li>Réaliser nos idées</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questionnement et étapes</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>Grande quantité de données</li>
+                        <li>Comment gérer ces données ?</li>
+                        <li>Différent de notre manière de faire</li>
+                        <li>Être face à des problèmes</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Compétences acquises</h2>
+                    <ul>
+                        <li>Maitrise du language Java</li>
+                        <li>Capacité d'analyse</li>
+                        <li>Maitrise des boucles, tableaux et matrices</li>
+                        <li>S'adapter à différentes situations</li>
+                        <li>Surmonter les difficultés</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="deuxieme">
+                <div class="capture">
+                    <img src="images/Capture_Odomo_1.png" alt="photo du rendu final du projet">
+                </div>
+                <div class="capture">
+                    <img src="images/Capture_Odomo_2.png" alt="photo du rendu final du projet">
+                </div>
+            </div>
+        </div>
+    </main> 
+
+    <script src="menu.js"></script>
+</body>
+</html>

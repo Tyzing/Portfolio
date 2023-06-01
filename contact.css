@@ -1,0 +1,164 @@
+@font-face {
+    font-family: "PoppinsSmall";
+    src: url('font/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url('font/Poppins/Poppins-Italic.ttf');
+}
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(131, 190, 209);
+}
+
+.transition{
+    position: fixed;
+    left: -500;
+    bottom: 0;
+    z-index: -1;
+    opacity: 1;
+    pointer-events: none;
+    transition : ease 2s;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0vw 100vw 100vh 0vw;
+    border-color: transparent transparent white transparent;
+}
+
+.transition.active{
+    opacity: 1;
+    pointer-events: none;
+    translate: -100vw;
+}
+
+.contact{
+    position: absolute;
+    bottom: 35vh;
+    left: 20vw;
+    flex-direction: column;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(131, 190, 209);
+    z-index: -1;
+}
+
+.tel, .mail, .monCV{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+#CV{
+    position: absolute;
+    height: 400px;
+    top: 10vh;
+    right: 10vw;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(131, 190, 209);
+}
+
+.contact a:hover{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-color: rgb(131, 190, 209);
+    color: white;
+}
+
+#grandCV{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.retour{
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    z-index: -1;
+}
+.retour img{
+    width: 50px;
+    margin-right: 20px;
+    rotate: 180deg;
+}
+
+.retour a{
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(131, 190, 209);
+}
+
+.retour a:hover p{
+    background-color: rgb(131, 190, 209);
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+  
+@media screen and (max-width: 1100px) {
+    #CV{
+        height: 350px;
+    }
+
+    .contact{
+        bottom: 30vh;
+        left: 15vw;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    #CV{
+        height: 300px;
+    }
+
+    .contact{
+        bottom: 20vh;
+        left: 15vw;
+        font-size: 16px;
+    }
+    .contact img{
+        width: 35px;
+    }
+    .retour img{
+        width: 35px;
+    }
+  }
+
+  @media screen and (max-width: 730px) {
+    body{
+        background-color: white;
+    }
+    #CV{
+        height: 400px;
+        right: 15vw;
+    }
+    .contact{
+        position: absolute;
+        bottom: 10vh;
+        left: 10vw;
+        font-size: 16px;
+    }
+    .retour{
+        bottom: 30px;
+        left: 20px;
+    }
+  }

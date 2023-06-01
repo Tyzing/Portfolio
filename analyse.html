@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="analyse.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Analyse d'entreprise</title>
+</head>
+<body>
+    <header style="background-color: #6fb20c;">
+        <label id="menu" for="check">
+            <input type="checkbox" id="check"/> 
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <a href="contact.html">
+            <button id="open">Contactez-moi !</button>
+        </a>
+        <h1>Rapport d'analyse d'une entreprise</h1>
+    </header>
+    <main>
+        <nav id="nav" style="visibility: hidden;">
+            <section>
+                <div class="accueil">
+                    <a class="retour" href="index.html">
+                        <img src="images/flèche_accueil.png" alt="logo flèche retour accueil">
+                        <h2>Accueil</h2>
+                    </a>
+                </div>
+                <div class="Nformation">
+                    <h2>Formation</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#6fb20c', 'white')" onmouseout="changeColor('actif', 'white','#6fb20c')">
+                        <a id="actif" href="analyse.html">Analyse d'une entreprise</a>
+                        <a href="IA.html">Codage d'un Jeu de plateau + IA</a>
+                        <a href="HTML.html">Création d'un site Internet</a>
+                        <a href="BaseDonne.html">Création de base de données</a>
+                        <a href="station.html">Codage d'une station météorologique</a>
+                        <a href="VM.html">Installation d'une Machine Virtuelle</a>
+                    </div>
+                </div>
+                <div id="P" class="Nprofessionnel">
+                    <h2>Professionnel</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#6fb20c', 'white')" onmouseout="changeColor('actif', 'white','#6fb20c')">
+                        <a href="index.html">Manutentionnaire Michelin</a>
+                        <a href="index.html">Manutentionnaire GVG</a>
+                        <a href="index.html">Manutentionnaire Sovex</a>
+                    </div>
+                </div>
+                <p class="nom"> DUBILE Bastien</p>
+            </section>
+        </nav>
+        <div class="corp">
+            <div class="premier">
+                <section>
+                    <h2>Étapes de réalisation</h2>
+                    <ul>
+                        <li>Analyse d'une entreprise</li>
+                        <li>Répartition du travail</li>
+                        <li>Analyse économique</li>
+                        <li>Tableau de bord</li>
+                        <li>Mise en commun du travail</li>
+                        <li>Rendu professionnel</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questionnement et étapes</h2>
+                    <ul>
+                        <li>Rechercher les informations</li>
+                        <li>Travailler en équipe</li>
+                        <li>Connaitre les termes précis</li>
+                        <li>Gérer le temps</li>
+                        <li>Harmoniser le résultat de chacun</li>
+                        <li>Rendre agréable le document</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Compétences acquises</h2>
+                    <ul>
+                        <li>Capacité à trier l'information</li>
+                        <li>Coopération, Savoir être en équipe</li>
+                        <li>Base de l'économie</li>
+                        <li>Maitrise de l'organisation</li>
+                        <li>Gestion d'équipe</li>
+                        <li>Technique de mise en forme</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="deuxieme">
+                <div class="capture">
+                    <img src="images/image_LTC.png" alt="photo du rendu final du projet">
+                </div>
+                <div id="special" class="capture">
+                    <a href="Téléchargeable/LaToqueCuivree_rapport.pdf" download="Rapport_LaToqueCuivrée">Télécharger l'analyse ici</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BaseDonne.css">
+    <link rel="stylesheet" href="header.css">
+    <title>Base de donnée</title>
+</head>
+<body>
+    <header style="background-color: #ff5556;">
+        <label id="menu" for="check">
+            <input type="checkbox" id="check"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <a href="contact.html">
+            <button id="open">Contactez-moi !</button>
+        </a>
+        <h1>Création de base de donnée</h1>
+    </header>
+    <main>
+        <nav id="nav" style="visibility: hidden;">
+            <section>
+                <div class="accueil">
+                    <a class="retour" href="index.html">
+                        <img src="images/flèche_accueil.png" alt="logo flèche retour accueil">
+                        <h2>Accueil</h2>
+                    </a>
+                </div>
+                <div class="Nformation">
+                    <h2>Formation</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#ff5556', 'white')" onmouseout="changeColor('actif', 'white','#ff5556')">
+                        <a  href="analyse.html">Analyse d'une entreprise</a>
+                        <a href="IA.html">Codage d'un Jeu de plateau + IA</a>
+                        <a  href="HTML.html">Création d'un site Internet</a>
+                        <a id="actif" href="BaseDonne.html">Création de base de données</a>
+                        <a href="station.html">Codage d'une station météorologique</a>
+                        <a href="VM.html">Installation d'une Machine Virtuelle</a>
+                    </div>
+                </div>
+                <div id="P" class="Nprofessionnel">
+                    <h2>Professionnel</h2>
+                    <div class="lien" onmouseover="changeColor('actif', '#ff5556', 'white')" onmouseout="changeColor('actif', 'white','#ff5556')">
+                        <a href="index.html">Manutentionnaire Michelin</a>
+                        <a href="index.html">Manutentionnaire GVG</a>
+                        <a href="index.html">Manutentionnaire Sovex</a>
+                    </div>
+                </div>
+                <p class="nom"> DUBILE Bastien</p>
+            </section>
+        </nav>
+        <div class="corp">
+            <div class="premier">
+                <section>
+                    <h2>Étapes de réalisation</h2>
+                    <ul>
+                        <li>Travailler à deux</li>
+                        <li>Analyser le cahier des charges</li>
+                        <li>Schématiser la demande</li>
+                        <li>Créer la base de donnée</li>
+                        <li>Etablir les contraintes</li>
+                        <li>Remplir la base de donnée</li>
+                        <li>Réaliser un bilan du travail</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Questionnement et étapes</h2>
+                    <ul>
+                        <li>Répartir les tâches</li>
+                        <li>Reformuler la demande</li>
+                        <li>Schéma entité association (MCD)</li>
+                        <li>Générer le script de remplissage</li>
+                        <li>Imaginer les limites possible</li>
+                        <li>Créer un jeu de données</li>
+                        <li>Détailler le projet</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Compétences acquises</h2>
+                    <ul>
+                        <li>Organisation</li>
+                        <li>Comprendre/S'adapter</li>
+                        <li>Win Design</li>
+                        <li>Modèle logique (MLR)</li>
+                        <li>Language SQL</li>
+                        <li>Imaginer une multitude de cas</li>
+                        <li>Expression écrite</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="deuxieme">
+                <div class="capture">
+                    <img src="images/CaptureBD1.png" alt="Persona réaliser pendant le projet">
+                </div>
+                <div id="special" class="capture">
+                    <img src="images/CaptureBD2.png" alt="Rendu du site">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="menu.js"></script>
+    
+</body>
+</html>
