@@ -150,6 +150,7 @@ body{
     #CV{
         height: 400px;
         right: 15vw;
+        top: 2vh;
     }
     .contact{
         position: absolute;
