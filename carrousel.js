@@ -1,5 +1,5 @@
 let slideActif = 1;
-const maxSlide = 7;
+const maxSlide = 8;
 const flecheG = document.querySelector("#gaucheF");
 const flecheD = document.querySelector("#droiteF");
 
@@ -31,7 +31,7 @@ document.querySelector("#HTML").onclick = function(){
 }
 
 document.querySelector("#Gestion").onclick = function(){
-    slideActif = 7;
+    slideActif = 8;
     console.log(slideActif);
     document.getElementById(slideActif).style.display= "block";
     document.querySelector(".choix").style.display= "none";
@@ -40,7 +40,7 @@ document.querySelector("#Gestion").onclick = function(){
 }
 
 document.querySelector("#Systeme").onclick = function(){
-    slideActif = 6;
+    slideActif = 7;
     console.log(slideActif);
     document.getElementById(slideActif).style.display= "block";
     document.querySelector(".choix").style.display= "none";

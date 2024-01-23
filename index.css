@@ -159,7 +159,12 @@ section h2{
     color: white;
     transform: scale(1.1);
 }
-
+.card #symfony:hover{
+    background-color: black;
+    border: none;
+    color: white;
+    transform: scale(1.1);
+}
 .card #site:hover{
     background-color: #ff4c1e;
     border: none;
@@ -235,6 +240,10 @@ span.gf{
 }
 span.site{
     color: #ff4c1e;
+    font-weight: bold;
+}
+span.symfony{
+    color: black;
     font-weight: bold;
 }
 span.analyse{
