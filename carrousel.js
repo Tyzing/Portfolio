@@ -103,7 +103,7 @@ if (slideActif === 1 ){
 
 
 let slideActifP = 100;
-const maxSlideP = 102;
+const maxSlideP = 103;
 const flecheGP = document.querySelector("#gaucheP");
 const flecheDP = document.querySelector("#droiteP");
 

@@ -135,6 +135,12 @@ section h2{
     color: #004f9f;
     transform: scale(1.1);
 }
+.card #gf:hover{
+    background-color: #cbd43d;
+    border: none;
+    color: white;
+    transform: scale(1.1);
+}
 .card #gvg:hover{
     background-color: #9d4457;
     border: none;
@@ -219,6 +225,11 @@ span.station{
 }
 span.michelin{
     color: #ffe600;
+    font-weight: bold;
+    text-shadow: 100%;
+}
+span.gf{
+    color: #c51622;
     font-weight: bold;
     text-shadow: 100%;
 }
